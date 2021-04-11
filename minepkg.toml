@@ -1,0 +1,19 @@
+manifestVersion = 0
+
+[package]
+  type = "mod"
+  name = "show-off"
+  description = "Show off your items in chat!"
+  version = "1.0.0"
+  platform = "fabric"
+  license = "MIT"
+
+[requirements]
+  minecraft = ">=1.16.2"
+  fabric = "*"
+
+[dependencies]
+  fabric = "*"
+
+[dev]
+  buildCommand = "./gradlew build"
