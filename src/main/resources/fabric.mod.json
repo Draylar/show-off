@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "show-off",
+  "version": "${version}",
+  "name": "Show Off",
+  "description": "Show off your items in chat!",
+  "authors": [
+    "Draylar"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/showoff/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "draylar.showoff.ShowOffClient"
+    ],
+    "main": [
+      "draylar.showoff.ShowOff"
+    ]
+  },
+  "mixins": [
+    "show-off.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": ">=1.16.2"
+  }
+}
